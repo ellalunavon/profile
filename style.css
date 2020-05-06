@@ -1,0 +1,115 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+h1 {
+  color: #720026;
+  font-size: 73px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 100px;
+  line-height: 4;
+}
+
+h3, .more_info {
+  color: #250902;
+  letter-spacing: 5px;
+  line-height: 1.6;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #C1A68E;
+}
+
+.description {
+  color: #250902;
+  line-height: 2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: light;
+  letter-spacing: -0.7px;
+}
+
+.container_header {
+  color: #720026;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 30px;
+  line-height: 1;
+  text-align: center;
+}
+
+.more_info {
+  background-color: rgba(250, 250, 250, 0.8);
+  border: 3px;
+  border-radius: 1px;
+  box-shadow: 4px 4px 4px grey;
+  text-align: center;
+}
+
+.list-inline {
+  color: #FFFFB3;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.card li {
+  display: inline-block;
+}
+
+.img-center {
+  text-align: center;
+}
+
+#profile {
+  align-self: center;
+  border-radius: 30%;
+}
+
+#btn {
+  transition: ease all 1s;
+  background-color: #250902;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 20px 5px 20px 5px;
+  text-decoration: none;
+}
+#btn:hover{
+  background-color: #644536;
+  border-radius: 5px 20px 5px 20px;
+}
+
+/* all code into div called container
+select in style.css and give it a width 800 and margin auto (to center)
+now media (copy-paste)
+.container { width: 800px; margin: auto;*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+.card{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 5px;
+}
+.card li:hover {
+  opacity: 1;
+  color: white;
+}
